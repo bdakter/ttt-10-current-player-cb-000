@@ -4,10 +4,12 @@ nested_students = [
   ["Monique", "Grade 11", "B average", "Class President"]
 ]
 
+puts "one dim"
 nested_students.each do |student_array|
   p student_array #.inspect
 end
 
+puts "multi dim"
 nested_students.each do |student_array|
   student_array.each do |student_detail|
     p student_detail
