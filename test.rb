@@ -8,6 +8,7 @@ puts "one dim"
 nested_students.each do |student_array|
   p student_array #.inspect
 end
+puts
 
 puts "multi dim"
 nested_students.each do |student_array|
