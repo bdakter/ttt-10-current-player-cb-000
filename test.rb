@@ -5,7 +5,12 @@ nested_students = [
 ]
 
 nested_students.each do |student_array|
-  # #inspect returns a human-readable representation
-  # of the array
   p student_array #.inspect
 end
+
+nested_students.each do |student_array|
+  student_array.each do |student_detail|
+    p student_detail
+  end
+end
+
