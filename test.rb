@@ -7,5 +7,5 @@ nested_students = [
 nested_students.each do |student_array|
   # #inspect returns a human-readable representation
   # of the array
-  puts student_array #.inspect
+  p student_array #.inspect
 end
