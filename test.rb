@@ -13,6 +13,6 @@ puts
 puts "multi dim"
 nested_students.each do |student_array|
   student_array.each do |student_detail|
-    p student_detail.inspect
+    puts student_detail.inspect
   end
 end
