@@ -13,4 +13,3 @@ nested_students.each do |student_array|
     p student_detail
   end
 end
-
